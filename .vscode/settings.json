@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "   \"*.jsx\"": "   \"javascriptreact\"",
+        "*.jsx": "javascriptreact",
+        "vector": "cpp"
+    }
+}

@@ -18,7 +18,7 @@ public:
 Node *buildTree(Node *root)
 {
     int data;
-    cout<<"Enter: ";
+    cout << "Enter: ";
     cin >> data;
     root = new Node(data);
     if (data == -1)
@@ -58,7 +58,7 @@ void levelOrderTraversal(Node *root)
 }
 int main()
 {
-    Node*root;
-    root=buildTree(root);
+    Node *root;
+    root = buildTree(root);
     levelOrderTraversal(root);
 }
